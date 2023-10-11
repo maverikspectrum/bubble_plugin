@@ -1,0 +1,17 @@
+{
+    "categories": {
+        "0": "payment",
+        "1": "ecommerce",
+        "2": "productivity",
+        "3": "small business",
+        "4": "technical"
+    },
+    "demo_page": "https://stripe-session-checkout-plugin.bubbleapps.io/version-test",
+    "description": "This plugin has been recently acquired by Zeroqode - please bear with us while we review the code and make improvements/fixes where necessary.\n \nThe easiest plugin to integrate Stripe payment system into your app. \n\nUses 1 Action only, simply input your Stripe Key, product datails and you're done!\n\n🔔 Get our 15 Top Plugins Bundle with 15 most popular plugins for only 20$/month.\nPlugins included in the Bundle:\n\n- Bubble Page to PDF converter\n- Stripe Marketplace Express\n- Air Calendar (Full Calendar 5.9.0)\n- AWS File uploader - Any size\n- Advanced Rich Text Editor\n- Mapbox Map\n- Phone Input Number with Formatting\n- Advanced Multi Uploader\n- Video Player\n- Dynamic Height & Width of Elements\n- Audio Recorder\n- Repeating Group to CSV\n- Print Pro\n- Advanced Audio Player\n- Easy File Downloader\n\nGet it here: https://zeroqode.com/bundle\n\nNEED HELP BUILDING A CUSTOM APPLICATION?\nhttps://dev.zeroqode.com\n\nSUPERCHARGE YOUR APP WITH ZEROQODE PLUGINS\nhttps://zeroqode.com/plugins\n\nQUESTIONS OR NEED HELP?\nhttps://forum.zeroqode.com",
+    "image": "//s3.amazonaws.com/appforest_uf/f1660927049387x903247115695150100/102129-card-payment-successful.gif",
+    "license": "open_source",
+    "link": "https://zeroqode.com/plugins",
+    "name": "Easy Stripe Payments",
+    "plugin_instructions": "Requirements:\n- Stripe Account\n- Stripe API Key\n\nProceeding:\nFollow the tutorial on the demo page to insert information into the action form\n\n— 2021-2022 © MediaNova",
+    "sa_node_version": 18
+}

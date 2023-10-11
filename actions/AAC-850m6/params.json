@@ -1,0 +1,118 @@
+{
+    "category": "plugins",
+    "display": "Stripe - Checkout",
+    "fields": {
+        "AAF": {
+            "caption": "Cancel URL",
+            "default_val": "https://example.com/cancel",
+            "doc": "(optional) If set, Checkout displays a back button and customers will be directed to this URL if they decide to cancel payment and return to your website.",
+            "editor": "DynamicValue",
+            "name": "cancel_url",
+            "optional": true,
+            "rank": 1,
+            "value": "text"
+        },
+        "AAG": {
+            "caption": "Success URL",
+            "default_val": "https://example.com/success_url",
+            "doc": "The URL to which Stripe should send customers when payment or setup is complete.",
+            "editor": "DynamicValue",
+            "name": "success_url",
+            "optional": false,
+            "rank": 2,
+            "value": "text"
+        },
+        "AAH": {
+            "caption": "Currency",
+            "default_val": "EUR",
+            "doc": "Three-letter ISO currency code, in lowercase. Must be a supported currency. Check here: https://stripe.com/docs/currencies",
+            "editor": "DynamicValue",
+            "name": "currency",
+            "rank": 3,
+            "value": "text"
+        },
+        "AAI": {
+            "caption": "Product name",
+            "default_val": "T-Shirts",
+            "doc": "The product’s name, meant to be displayable to the customer.",
+            "editor": "DynamicValue",
+            "name": "product_name",
+            "rank": 4,
+            "value": "text"
+        },
+        "AAJ": {
+            "caption": "Quantity",
+            "default_val": "2",
+            "doc": "The quantity of the line item being purchased.",
+            "editor": "DynamicValue",
+            "name": "quantity",
+            "rank": 5,
+            "value": "number"
+        },
+        "AAK": {
+            "caption": "Payment method",
+            "default_val": "card",
+            "doc": "A list of the types of payment methods (e.g., card) this Checkout Session can accept. Check here: https://stripe.com/docs/api/checkout/sessions/create#create_checkout_session-payment_method_types",
+            "editor": "DynamicValue",
+            "name": "payment_method",
+            "rank": 6,
+            "value": "text"
+        },
+        "AAL": {
+            "caption": "Unity price amount",
+            "default_val": 100,
+            "doc": "The unit amount in cents to be charged, represented as a whole integer if possible. Check here: https://stripe.com/docs/currencies",
+            "editor": "DynamicValue",
+            "name": "unity_amount",
+            "rank": 7,
+            "value": "number"
+        },
+        "AAM": {
+            "caption": "Token",
+            "default_val": "Bearer sk_test_51...",
+            "doc": "The Authorization header. \"Bearer \" + STRIPE_SECRET_KEY",
+            "editor": "DynamicValue",
+            "long_text": true,
+            "name": "token",
+            "rank": 0,
+            "value": "text"
+        },
+        "AAN": {
+            "caption": "Mode",
+            "default_val": "payment",
+            "doc": "The mode of the Checkout Session. Pass 'subscription' if the Checkout Session includes at least one recurring item. Possible value: payment, setup, subscription.",
+            "editor": "DynamicValue",
+            "name": "mode",
+            "rank": 8,
+            "value": "text"
+        }
+    },
+    "return_value": {
+        "AAD": {
+            "caption": "payment URL",
+            "name": "payment_url",
+            "rank": 0,
+            "value": "text"
+        },
+        "AAO": {
+            "caption": "expires at",
+            "name": "expires_at",
+            "rank": 1,
+            "value": "text"
+        },
+        "AAP": {
+            "caption": "payment intent",
+            "name": "payment_intent",
+            "rank": 2,
+            "value": "text"
+        },
+        "AAQ": {
+            "caption": "payment status",
+            "name": "payment_status",
+            "rank": 3,
+            "value": "text"
+        }
+    },
+    "type": "server_side",
+    "use_packages": false
+}

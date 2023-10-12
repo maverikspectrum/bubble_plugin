@@ -1,0 +1,12 @@
+{
+    "name": "Easy Stripe Payments",
+    "version": "1.0.0",
+    "dependencies": {
+      "fs": "0.0.1-security",
+      "javascript-obfuscator": "4.0.2",
+      "path": "^0.12.7"
+    },
+    "scripts": {
+      "build": "node ./bin/build.js"
+    }
+  }
